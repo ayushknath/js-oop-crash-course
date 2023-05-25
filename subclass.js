@@ -20,7 +20,13 @@
 //   }
 // }
 
-// // Instantiate object
-// const book1 = new Book("Book One", "John Doe", 2012);
-// console.log(book1);
-// console.log(book1.revise(2020));
+// class Magazine extends Book {
+//   constructor(title, author, year, month) {
+//     super(title, author, year);
+//     this.month = month;
+//   }
+// }
+
+// const mag = new Magazine("Magazine One", "John Doe", 2018, "Jan");
+
+// console.log(mag.getSummary());
